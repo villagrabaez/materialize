@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+h1, p { margin: 0; padding: 0;}
+
+header nav {
+  height: 100px;
+  line-height: 100px;
+}
+
+main .hero-main-pic {
+  background: url('../assets/img/background.png'), blue;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  /* flex */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .hero-main-pic h1,
+main .hero-main-pic p {
+  color: gray;
+  padding: 10px 0 0 30px;
+}
+
+.input-field.input-container {
+  height: 100px;
+  float: none;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.input-field.input-container i {
+  padding-right: 10px;
+}
+
+footer.page-footer {
+  height: 80px;
+  background: gray;
+  bottom: 0;
+}
